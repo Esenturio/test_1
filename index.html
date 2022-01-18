@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <form method="post" action="test.php">
+    <input id="input_login" type="text" class="login" name="login" placeholder="Enter login" >
+    <input id="input_pass" type="password" class="login" name="password" placeholder="Enter password" >
+    <input class="button" type="submit" value="Войти" id="send">
+    <button class="button uniq" id="sign" ><p class="shadow"></p> Зарегаться</button>
+    <div class="hidden-inputs">
+      <input id="input_email" type="email" placeholder="Enter email" name="email">
+      <input id="input_tel" type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Enter number xxxx-xxx-xxx" name="number">
+      <input id="input_birth" type="date" placeholder="Enter your birthday" name="BirthDay">
+    </div>
+  </form>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+input {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+}
+.button {
+  padding: 8px 1rem;
+  cursor: pointer;
+  background-color: rgb(26, 189, 75);
+  color: white;
+  border: none;
+  margin: 0;
+  border-radius: 1rem;
+}
+.hidden-inputs input {
+  display: block;
+}
+.uniq {
+  position: relative;
+}
+.shadow {
+  position: absolute;
+  width: 100px;
+  height: 32px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: 200;
+}
